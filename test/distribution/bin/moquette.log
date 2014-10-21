@@ -1,0 +1,20 @@
+0    [pool-1-thread-1] INFO  FileAuthenticator  - Loading password file: /home/archer/Documents/mqtt/test/distribution/config/password_file.conf
+1592 [main] INFO  NettyAcceptor  - Server binded
+1605 [main] INFO  NettyAcceptor  - SSL is disabled
+83671 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <mqttjs_f6a434e9306af3cf>
+83673 [pool-1-thread-1] INFO  ProtocolProcessor  - Connected client ID <mqttjs_f6a434e9306af3cf> with clean session true
+83689 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <mqttjs_34c7ed3bbb14d02b>
+83689 [pool-1-thread-1] INFO  ProtocolProcessor  - Connected client ID <mqttjs_34c7ed3bbb14d02b> with clean session true
+83706 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <mqttjs_1cbdaaba38e4ee78>
+83706 [pool-1-thread-1] INFO  ProtocolProcessor  - Connected client ID <mqttjs_1cbdaaba38e4ee78> with clean session true
+83708 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <mqttjs_d412884f62761e74>
+83708 [pool-1-thread-1] INFO  ProtocolProcessor  - Connected client ID <mqttjs_d412884f62761e74> with clean session true
+83709 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <mqttjs_9f687da0b53ef008>
+83709 [pool-1-thread-1] INFO  ProtocolProcessor  - Connected client ID <mqttjs_9f687da0b53ef008> with clean session true
+84282 [pool-1-thread-1] INFO  ProtocolProcessor  - <mqttjs_1cbdaaba38e4ee78> subscribed to topic </textmsg/#> with QoS 0 - MOST_ONE
+90846 [pool-1-thread-1] INFO  ProtocolProcessor  - Lost connection with client <mqttjs_9f687da0b53ef008>
+90847 [pool-1-thread-1] INFO  ProtocolProcessor  - Lost connection with client <mqttjs_34c7ed3bbb14d02b>
+90847 [pool-1-thread-1] INFO  ProtocolProcessor  - Lost connection with client <mqttjs_d412884f62761e74>
+90850 [pool-1-thread-1] INFO  ProtocolProcessor  - Lost connection with client <mqttjs_f6a434e9306af3cf>
+90850 [pool-1-thread-1] INFO  ProtocolProcessor  - Lost connection with client <mqttjs_1cbdaaba38e4ee78>
+1581287 [Thread-1] INFO  NettyAcceptor  - Msg read: 6, msg wrote: 9
