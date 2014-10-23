@@ -18,3 +18,27 @@
 90850 [pool-1-thread-1] INFO  ProtocolProcessor  - Lost connection with client <mqttjs_f6a434e9306af3cf>
 90850 [pool-1-thread-1] INFO  ProtocolProcessor  - Lost connection with client <mqttjs_1cbdaaba38e4ee78>
 1581287 [Thread-1] INFO  NettyAcceptor  - Msg read: 6, msg wrote: 9
+0    [pool-1-thread-1] INFO  FileAuthenticator  - Loading password file: /home/archer/Documents/mqtt/test/distribution/config/password_file.conf
+1491 [main] INFO  NettyAcceptor  - Server binded
+1574 [main] INFO  NettyAcceptor  - SSL is disabled
+41809 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <mqttjs_4f5ec36be3ad80be>
+41820 [pool-1-thread-1] INFO  ProtocolProcessor  - Connected client ID <mqttjs_4f5ec36be3ad80be> with clean session true
+41829 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <mqttjs_6f9b17c64fa03e68>
+41829 [pool-1-thread-1] INFO  ProtocolProcessor  - Connected client ID <mqttjs_6f9b17c64fa03e68> with clean session true
+41833 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <mqttjs_7b078e8eff850760>
+41835 [pool-1-thread-1] INFO  ProtocolProcessor  - Connected client ID <mqttjs_7b078e8eff850760> with clean session true
+41836 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <mqttjs_2da2e7b6d1b0b61a>
+41838 [pool-1-thread-1] INFO  ProtocolProcessor  - Connected client ID <mqttjs_2da2e7b6d1b0b61a> with clean session true
+41961 [pool-1-thread-1] INFO  ProtocolProcessor  - <mqttjs_2da2e7b6d1b0b61a> subscribed to topic </ebang/#> with QoS 0 - MOST_ONE
+54704 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <mqttjs_1f0af22bb5edffc6>
+54705 [pool-1-thread-1] INFO  ProtocolProcessor  - Connected client ID <mqttjs_1f0af22bb5edffc6> with clean session true
+54708 [pool-1-thread-1] INFO  ProtocolProcessor  - <mqttjs_1f0af22bb5edffc6> subscribed to topic <presence> with QoS 0 - MOST_ONE
+54714 [pool-1-thread-1] INFO  ProtocolProcessor  - Publish recieved from clientID <mqttjs_1f0af22bb5edffc6> on topic <presence> with QoS MOST_ONE
+54744 [pool-1-thread-1] INFO  ProtocolProcessor  - send publish message to <mqttjs_1f0af22bb5edffc6> on topic <presence>
+54745 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <mqttjs_1f0af22bb5edffc6>
+54750 [pool-1-thread-1] INFO  ProtocolProcessor  - Disconnected client <mqttjs_1f0af22bb5edffc6> with clean session true
+139430 [pool-1-thread-1] INFO  ProtocolProcessor  - Lost connection with client <mqttjs_6f9b17c64fa03e68>
+139430 [pool-1-thread-1] INFO  ProtocolProcessor  - Lost connection with client <mqttjs_4f5ec36be3ad80be>
+139441 [pool-1-thread-1] INFO  ProtocolProcessor  - Lost connection with client <mqttjs_2da2e7b6d1b0b61a>
+139442 [pool-1-thread-1] INFO  ProtocolProcessor  - Lost connection with client <mqttjs_7b078e8eff850760>
+139456 [Thread-1] INFO  NettyAcceptor  - Msg read: 17, msg wrote: 15
