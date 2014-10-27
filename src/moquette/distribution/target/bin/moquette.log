@@ -1,0 +1,17 @@
+0    [main] INFO  FileAuthenticator  - Loading password file: /home/archer/Documents/mqtt/test/moquette/distribution/target/config/password_file.conf
+0    [main] INFO  FileAuthenticator  - Loading password file: /home/archer/Documents/mqtt/test/moquette/distribution/target/config/password_file.conf
+170  [main] INFO  NettyAcceptor  - Server binded
+176  [main] INFO  NettyAcceptor  - Server binded
+177  [main] INFO  NettyAcceptor  - SSL is disabled
+23725 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <mqttjs_59f01bd4ebbece81>
+23821 [pool-1-thread-1] WARN  ProtocolProcessor  - Connected client ID <mqttjs_59f01bd4ebbece81> with clean session true
+23822 [pool-1-thread-1] INFO  ProtocolProcessor  - Create persistent session for clientID mqttjs_59f01bd4ebbece81
+23919 [pool-1-thread-1] INFO  ProtocolProcessor  - <mqttjs_59f01bd4ebbece81> subscribed to topic <csrgxtu> with QoS 0 - MOST_ONE
+28524 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <mqttjs_f8e06c0814e3a011>
+28604 [pool-1-thread-1] WARN  ProtocolProcessor  - Connected client ID <mqttjs_f8e06c0814e3a011> with clean session true
+28604 [pool-1-thread-1] INFO  ProtocolProcessor  - Create persistent session for clientID mqttjs_f8e06c0814e3a011
+28694 [pool-1-thread-1] INFO  ProtocolProcessor  - Publish recieved from clientID <mqttjs_f8e06c0814e3a011> on topic <csrgxtu> with QoS MOST_ONE
+28695 [pool-1-thread-1] INFO  ProtocolProcessor  - send publish message to <mqttjs_59f01bd4ebbece81> on topic <csrgxtu>
+28697 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <mqttjs_f8e06c0814e3a011>
+28864 [pool-1-thread-1] WARN  ProtocolProcessor  - Disconnected client <mqttjs_f8e06c0814e3a011> with clean session true
+267540 [Thread-1] INFO  NettyAcceptor  - Msg read: 6, msg wrote: 2
