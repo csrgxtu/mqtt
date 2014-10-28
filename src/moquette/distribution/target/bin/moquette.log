@@ -15,3 +15,26 @@
 28697 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <mqttjs_f8e06c0814e3a011>
 28864 [pool-1-thread-1] WARN  ProtocolProcessor  - Disconnected client <mqttjs_f8e06c0814e3a011> with clean session true
 267540 [Thread-1] INFO  NettyAcceptor  - Msg read: 6, msg wrote: 2
+0    [main] INFO  FileAuthenticator  - Loading password file: /home/archer/Documents/mqtt/src/moquette/distribution/target/config/password_file.conf
+132  [main] INFO  NettyAcceptor  - Server binded
+151  [main] INFO  NettyAcceptor  - Server binded
+151  [main] INFO  NettyAcceptor  - SSL is disabled
+396867 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <mqttjs_15abea9d8e72019c>
+396959 [pool-1-thread-1] WARN  ProtocolProcessor  - Connected client ID <mqttjs_15abea9d8e72019c> with clean session true
+396962 [pool-1-thread-1] INFO  ProtocolProcessor  - Create persistent session for clientID mqttjs_15abea9d8e72019c
+397089 [pool-1-thread-1] INFO  ProtocolProcessor  - <mqttjs_15abea9d8e72019c> subscribed to topic <csrgxtu> with QoS 0 - MOST_ONE
+419239 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <mqttjs_ec81a899d872e343>
+419327 [pool-1-thread-1] WARN  ProtocolProcessor  - Connected client ID <mqttjs_ec81a899d872e343> with clean session true
+419327 [pool-1-thread-1] INFO  ProtocolProcessor  - Create persistent session for clientID mqttjs_ec81a899d872e343
+419422 [pool-1-thread-1] INFO  ProtocolProcessor  - Publish recieved from clientID <mqttjs_ec81a899d872e343> on topic <csrgxtu> with QoS MOST_ONE
+419423 [pool-1-thread-1] INFO  ProtocolProcessor  - send publish message to <mqttjs_15abea9d8e72019c> on topic <csrgxtu>
+419423 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <mqttjs_ec81a899d872e343>
+419617 [pool-1-thread-1] WARN  ProtocolProcessor  - Disconnected client <mqttjs_ec81a899d872e343> with clean session true
+679706 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <mqttjs_b6ee1f8ef1147f2f>
+679810 [pool-1-thread-1] WARN  ProtocolProcessor  - Connected client ID <mqttjs_b6ee1f8ef1147f2f> with clean session true
+679810 [pool-1-thread-1] INFO  ProtocolProcessor  - Create persistent session for clientID mqttjs_b6ee1f8ef1147f2f
+679918 [pool-1-thread-1] INFO  ProtocolProcessor  - Publish recieved from clientID <mqttjs_b6ee1f8ef1147f2f> on topic <csrgxtu> with QoS MOST_ONE
+679918 [pool-1-thread-1] INFO  ProtocolProcessor  - send publish message to <mqttjs_15abea9d8e72019c> on topic <csrgxtu>
+679918 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <mqttjs_b6ee1f8ef1147f2f>
+680099 [pool-1-thread-1] WARN  ProtocolProcessor  - Disconnected client <mqttjs_b6ee1f8ef1147f2f> with clean session true
+1033515 [Thread-1] INFO  NettyAcceptor  - Msg read: 12, msg wrote: 4

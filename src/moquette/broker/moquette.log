@@ -146,3 +146,76 @@
 03:07:16,375 [main] WARN  ProtocolProcessor 229  - Connected client ID <Publisher> with clean session true
 03:07:16,679 [main] WARN  ProtocolProcessor 229  - Connected client ID <Publisher> with clean session false
 03:07:17,293 [main] WARN  FileAuthenticator 45  - Bad file reference / is a directory
+04:16:31,273 [main] WARN  ProtocolProcessor 229  - Connected client ID <FAKE_123> with clean session true
+04:16:31,278 [main] WARN  ProtocolProcessor 229  - Connected client ID <FAKE_456> with clean session true
+04:16:31,990 [main] WARN  ProtocolProcessor 229  - Connected client ID <123> with clean session false
+04:16:32,294 [main] WARN  ProtocolProcessor 229  - Connected client ID <123> with clean session false
+04:16:32,600 [main] WARN  ProtocolProcessor 229  - Connected client ID <FAKE_123> with clean session true
+04:16:33,208 [main] WARN  ProtocolProcessor 229  - Connected client ID <CliID> with clean session false
+04:16:33,210 [main] WARN  ProtocolProcessor 527  - Disconnected client <CliID> with clean session false
+04:16:33,211 [main] WARN  ProtocolProcessor 229  - Connected client ID <CliID> with clean session false
+04:16:33,515 [main] WARN  ProtocolProcessor 151  - processConnect sent bad proto ConnAck
+04:16:34,430 [main] WARN  ProtocolProcessor 229  - Connected client ID <Publisher> with clean session true
+04:16:34,737 [main] WARN  ProtocolProcessor 229  - Connected client ID <Publisher> with clean session false
+04:16:35,355 [main] WARN  FileAuthenticator 45  - Bad file reference / is a directory
+04:17:05,406 [pool-1-thread-1] WARN  ProtocolProcessor 229  - Connected client ID <TestClient> with clean session false
+04:17:05,854 [pool-1-thread-1] WARN  ProtocolProcessor 229  - Connected client ID <mqttjs_15abea9d8e72019c> with clean session true
+04:17:07,070 [pool-1-thread-1] WARN  ProtocolProcessor 527  - Disconnected client <TestClient> with clean session false
+04:17:07,542 [pool-3-thread-1] WARN  ProtocolProcessor 229  - Connected client ID <TestClient> with clean session false
+04:17:07,831 [pool-3-thread-1] WARN  ProtocolProcessor 527  - Disconnected client <TestClient> with clean session false
+04:17:08,026 [pool-3-thread-1] WARN  ProtocolProcessor 229  - Connected client ID <TestClientPUB> with clean session true
+04:17:08,504 [pool-3-thread-1] WARN  ProtocolProcessor 229  - Connected client ID <mqttjs_15abea9d8e72019c> with clean session true
+04:17:08,894 [pool-3-thread-1] WARN  ProtocolProcessor 527  - Disconnected client <TestClientPUB> with clean session true
+04:17:08,983 [pool-3-thread-1] WARN  ProtocolProcessor 229  - Connected client ID <TestClient> with clean session false
+04:17:09,237 [pool-3-thread-1] WARN  ProtocolProcessor 527  - Disconnected client <TestClient> with clean session false
+04:17:09,632 [pool-5-thread-1] WARN  ProtocolProcessor 229  - Connected client ID <TestClient> with clean session false
+04:17:09,943 [pool-5-thread-1] WARN  ProtocolProcessor 527  - Disconnected client <TestClient> with clean session false
+04:17:10,039 [pool-5-thread-1] WARN  ProtocolProcessor 229  - Connected client ID <TestClient> with clean session false
+04:17:30,453 [main] ERROR SimpleMessaging 131  - Can't stop the server in 10 seconds
+04:17:30,908 [pool-9-thread-1] WARN  ProtocolProcessor 229  - Connected client ID <TestClient> with clean session true
+04:17:31,530 [pool-9-thread-1] WARN  ProtocolProcessor 527  - Disconnected client <TestClient> with clean session true
+04:17:31,931 [pool-11-thread-1] WARN  ProtocolProcessor 229  - Connected client ID <TestClient> with clean session false
+04:17:32,251 [pool-11-thread-1] WARN  ProtocolProcessor 527  - Disconnected client <TestClient> with clean session false
+04:17:32,479 [pool-11-thread-1] WARN  ProtocolProcessor 229  - Connected client ID <TestClientPUB> with clean session true
+04:18:00,922 [pool-1-thread-1] WARN  ProtocolProcessor 229  - Connected client ID <Subscriber> with clean session true
+04:18:01,248 [pool-1-thread-1] WARN  ProtocolProcessor 229  - Connected client ID <Publisher> with clean session true
+04:18:01,543 [pool-1-thread-1] WARN  ProtocolProcessor 229  - Connected client ID <mqttjs_15abea9d8e72019c> with clean session true
+04:18:02,191 [pool-1-thread-1] WARN  ProtocolProcessor 527  - Disconnected client <Publisher> with clean session true
+04:18:02,397 [pool-1-thread-1] WARN  ProtocolProcessor 527  - Disconnected client <Subscriber> with clean session true
+04:18:02,932 [pool-3-thread-1] WARN  ProtocolProcessor 229  - Connected client ID <Subscriber> with clean session true
+04:18:03,415 [pool-3-thread-1] WARN  ProtocolProcessor 229  - Connected client ID <Publisher> with clean session true
+04:18:03,871 [pool-3-thread-1] WARN  ProtocolProcessor 229  - Connected client ID <mqttjs_15abea9d8e72019c> with clean session true
+04:18:04,278 [pool-3-thread-1] WARN  ProtocolProcessor 527  - Disconnected client <Publisher> with clean session true
+04:18:04,472 [pool-3-thread-1] WARN  ProtocolProcessor 527  - Disconnected client <Subscriber> with clean session true
+04:18:04,998 [pool-5-thread-1] WARN  ProtocolProcessor 229  - Connected client ID <Subscriber> with clean session true
+04:18:05,295 [pool-5-thread-1] WARN  ProtocolProcessor 229  - Connected client ID <Publisher> with clean session true
+04:18:05,816 [pool-5-thread-1] WARN  ProtocolProcessor 229  - Connected client ID <mqttjs_15abea9d8e72019c> with clean session true
+04:18:06,310 [pool-5-thread-1] WARN  ProtocolProcessor 527  - Disconnected client <Publisher> with clean session true
+04:18:06,581 [pool-5-thread-1] WARN  ProtocolProcessor 527  - Disconnected client <Subscriber> with clean session true
+04:18:07,126 [pool-7-thread-1] WARN  ProtocolProcessor 229  - Connected client ID <Subscriber> with clean session true
+04:18:07,527 [pool-7-thread-1] WARN  ProtocolProcessor 229  - Connected client ID <Publisher> with clean session true
+04:18:07,963 [pool-7-thread-1] WARN  ProtocolProcessor 229  - Connected client ID <mqttjs_15abea9d8e72019c> with clean session true
+04:18:08,287 [pool-7-thread-1] WARN  ProtocolProcessor 527  - Disconnected client <Publisher> with clean session true
+04:18:08,487 [pool-7-thread-1] WARN  ProtocolProcessor 527  - Disconnected client <Subscriber> with clean session true
+04:18:08,999 [pool-9-thread-1] WARN  ProtocolProcessor 229  - Connected client ID <Subscriber> with clean session true
+04:18:09,323 [pool-9-thread-1] WARN  ProtocolProcessor 229  - Connected client ID <Publisher> with clean session true
+04:18:09,787 [pool-9-thread-1] WARN  ProtocolProcessor 229  - Connected client ID <mqttjs_15abea9d8e72019c> with clean session true
+04:18:10,303 [pool-9-thread-1] WARN  ProtocolProcessor 527  - Disconnected client <Publisher> with clean session true
+04:18:10,556 [pool-9-thread-1] WARN  ProtocolProcessor 527  - Disconnected client <Subscriber> with clean session true
+04:18:11,107 [pool-11-thread-1] WARN  ProtocolProcessor 229  - Connected client ID <Subscriber> with clean session true
+04:18:11,443 [pool-11-thread-1] WARN  ProtocolProcessor 229  - Connected client ID <Publisher> with clean session true
+04:18:11,911 [pool-11-thread-1] WARN  ProtocolProcessor 229  - Connected client ID <mqttjs_15abea9d8e72019c> with clean session true
+04:18:12,547 [pool-11-thread-1] WARN  ProtocolProcessor 527  - Disconnected client <Publisher> with clean session true
+04:18:12,742 [pool-11-thread-1] WARN  ProtocolProcessor 527  - Disconnected client <Subscriber> with clean session true
+04:18:26,729 [main] WARN  ProtocolProcessor 229  - Connected client ID <FAKE_123> with clean session true
+04:18:26,730 [main] WARN  ProtocolProcessor 229  - Connected client ID <FAKE_456> with clean session true
+04:18:27,440 [main] WARN  ProtocolProcessor 229  - Connected client ID <123> with clean session false
+04:18:27,744 [main] WARN  ProtocolProcessor 229  - Connected client ID <123> with clean session false
+04:18:28,050 [main] WARN  ProtocolProcessor 229  - Connected client ID <FAKE_123> with clean session true
+04:18:28,657 [main] WARN  ProtocolProcessor 229  - Connected client ID <CliID> with clean session false
+04:18:28,658 [main] WARN  ProtocolProcessor 527  - Disconnected client <CliID> with clean session false
+04:18:28,659 [main] WARN  ProtocolProcessor 229  - Connected client ID <CliID> with clean session false
+04:18:28,963 [main] WARN  ProtocolProcessor 151  - processConnect sent bad proto ConnAck
+04:18:29,880 [main] WARN  ProtocolProcessor 229  - Connected client ID <Publisher> with clean session true
+04:18:30,185 [main] WARN  ProtocolProcessor 229  - Connected client ID <Publisher> with clean session false
+04:18:30,798 [main] WARN  FileAuthenticator 45  - Bad file reference / is a directory

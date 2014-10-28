@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Export-Package: org.eclipse.moquette.proto.messages,org.eclipse.moquet
+ te.server.netty.metrics;uses:="io.netty.util,io.netty.channel,io.nett
+ y.buffer"
+Built-By: archer
+Tool: Bnd-0.0.357
+Bundle-Name: Moquette - OSGi bundle
+Created-By: Apache Maven Bundle Plugin
+Bundle-Version: 0.7.0.SNAPSHOT
+Build-Jdk: 1.7.0_45
+Bnd-LastModified: 1414481148975
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.eclipse.moquette.moquette.bundle.Activator
+Import-Package: io.netty.bootstrap;version="4.0",io.netty.buffer;versi
+ on="4.0",io.netty.channel;version="4.0",io.netty.channel.nio;version=
+ "4.0",io.netty.channel.socket;version="4.0",io.netty.channel.socket.n
+ io;version="4.0",io.netty.handler.codec;version="4.0",io.netty.handle
+ r.codec.http;version="4.0",io.netty.handler.codec.http.websocketx;ver
+ sion="4.0",io.netty.handler.ssl;version="4.0",io.netty.handler.timeou
+ t;version="4.0",io.netty.util;version="4.0",io.netty.util.concurrent;
+ version="4.0",javax.net.ssl,org.eclipse.moquette.moquette.bundle,org.
+ eclipse.moquette.proto.messages,org.eclipse.moquette.server.netty.met
+ rics,org.mapdb;version="1.1",org.osgi.framework;version="1.3",org.slf
+ 4j;version="1.7",sun.misc
+Bundle-SymbolicName: org.eclipse.moquette.bundle
+

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="4.84" errors="0" skipped="0" tests="15" name="org.eclipse.moquette.spi.impl.ProtocolProcessorTest">
+<testsuite failures="0" time="4.848" errors="0" skipped="0" tests="15" name="org.eclipse.moquette.spi.impl.ProtocolProcessorTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/home/archer/bin/jdk1.7.0_45/jre/lib/i386"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/archer/Documents/mqtt/test/moquette"/>
+    <property name="user.dir" value="/home/archer/Documents/mqtt/src/moquette/broker"/>
     <property name="java.runtime.version" value="1.7.0_45-b18"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/home/archer/bin/jdk1.7.0_45/jre/lib/endorsed"/>
@@ -59,18 +59,18 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="0.43" classname="org.eclipse.moquette.spi.impl.ProtocolProcessorTest" name="publishToAnInactiveSubscriptionsCleanSession"/>
-  <testcase time="0.448" classname="org.eclipse.moquette.spi.impl.ProtocolProcessorTest" name="testPublishToMultipleSubscribers"/>
-  <testcase time="0.304" classname="org.eclipse.moquette.spi.impl.ProtocolProcessorTest" name="testDoubleSubscribe"/>
+  <testcase time="0.475" classname="org.eclipse.moquette.spi.impl.ProtocolProcessorTest" name="publishToAnInactiveSubscriptionsCleanSession"/>
+  <testcase time="0.408" classname="org.eclipse.moquette.spi.impl.ProtocolProcessorTest" name="testPublishToMultipleSubscribers"/>
+  <testcase time="0.305" classname="org.eclipse.moquette.spi.impl.ProtocolProcessorTest" name="testDoubleSubscribe"/>
   <testcase time="0.304" classname="org.eclipse.moquette.spi.impl.ProtocolProcessorTest" name="testWill"/>
   <testcase time="0.304" classname="org.eclipse.moquette.spi.impl.ProtocolProcessorTest" name="validAuthentication"/>
-  <testcase time="0.305" classname="org.eclipse.moquette.spi.impl.ProtocolProcessorTest" name="testPublish"/>
+  <testcase time="0.306" classname="org.eclipse.moquette.spi.impl.ProtocolProcessorTest" name="testPublish"/>
   <testcase time="0.302" classname="org.eclipse.moquette.spi.impl.ProtocolProcessorTest" name="noPasswdAuthentication"/>
   <testcase time="0.306" classname="org.eclipse.moquette.spi.impl.ProtocolProcessorTest" name="testConnAckContainsSessionPresentFlag"/>
-  <testcase time="0.303" classname="org.eclipse.moquette.spi.impl.ProtocolProcessorTest" name="testHandleConnect_BadProtocol"/>
+  <testcase time="0.304" classname="org.eclipse.moquette.spi.impl.ProtocolProcessorTest" name="testHandleConnect_BadProtocol"/>
   <testcase time="0.303" classname="org.eclipse.moquette.spi.impl.ProtocolProcessorTest" name="testSubscribe"/>
   <testcase time="0.305" classname="org.eclipse.moquette.spi.impl.ProtocolProcessorTest" name="publishNoPublishToInactiveSubscriptions"/>
-  <testcase time="0.307" classname="org.eclipse.moquette.spi.impl.ProtocolProcessorTest" name="testPublishOfRetainedMessage_afterNewSubscription"/>
+  <testcase time="0.308" classname="org.eclipse.moquette.spi.impl.ProtocolProcessorTest" name="testPublishOfRetainedMessage_afterNewSubscription"/>
   <testcase time="0.305" classname="org.eclipse.moquette.spi.impl.ProtocolProcessorTest" name="testCleanRetainedStoreAfterAQoS0AndRetainedTrue"/>
   <testcase time="0.303" classname="org.eclipse.moquette.spi.impl.ProtocolProcessorTest" name="testConnect_badClientID"/>
   <testcase time="0.303" classname="org.eclipse.moquette.spi.impl.ProtocolProcessorTest" name="invalidAuthentication"/>

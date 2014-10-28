@@ -284,6 +284,7 @@ class ProtocolProcessor implements EventHandler<ValueEvent> {
     private void processPublish(String clientID, String topic, QOSType qos, ByteBuffer message, boolean retain, Integer messageID) { 
         LOG.info("Publish recieved from clientID <{}> on topic <{}> with QoS {}", 
                 clientID, topic, qos);
+        LOG.info("I am gonna kill you, publisher: " + clientID);
 
         String publishKey = null;
         if (qos == AbstractMessage.QOSType.LEAST_ONE) {

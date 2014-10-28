@@ -1,4 +1,42 @@
 -------------------------------------------------------------------------------
 Test set: org.eclipse.moquette.server.ServerRestartIntegrationTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.395 sec
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.564 sec <<< FAILURE!
+checkRestartCleanSubscriptionTree(org.eclipse.moquette.server.ServerRestartIntegrationTest)  Time elapsed: 0.175 sec  <<< ERROR!
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:101)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:478)
+	at io.netty.channel.DefaultChannelPipeline$HeadHandler.bind(DefaultChannelPipeline.java:1000)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeBind(DefaultChannelHandlerContext.java:451)
+	at io.netty.channel.DefaultChannelHandlerContext.bind(DefaultChannelHandlerContext.java:436)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:842)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:193)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:321)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:354)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:348)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:744)
+checkDontPublishInactiveClientsAfterServerRestart(org.eclipse.moquette.server.ServerRestartIntegrationTest)  Time elapsed: 0.387 sec  <<< ERROR!
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:101)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:478)
+	at io.netty.channel.DefaultChannelPipeline$HeadHandler.bind(DefaultChannelPipeline.java:1000)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeBind(DefaultChannelHandlerContext.java:451)
+	at io.netty.channel.DefaultChannelHandlerContext.bind(DefaultChannelHandlerContext.java:436)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:842)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:193)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:321)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:354)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:348)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:744)

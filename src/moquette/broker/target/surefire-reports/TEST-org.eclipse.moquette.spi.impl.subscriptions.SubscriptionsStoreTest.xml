@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.019" errors="0" skipped="0" tests="25" name="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest">
+<testsuite failures="0" time="0.021" errors="0" skipped="0" tests="25" name="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/home/archer/bin/jdk1.7.0_45/jre/lib/i386"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/archer/Documents/mqtt/test/moquette"/>
+    <property name="user.dir" value="/home/archer/Documents/mqtt/src/moquette/broker"/>
     <property name="java.runtime.version" value="1.7.0_45-b18"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/home/archer/bin/jdk1.7.0_45/jre/lib/endorsed"/>
@@ -59,29 +59,29 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="0.002" classname="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest" name="testRemoveClientSubscriptions_notexistingClientID"/>
+  <testcase time="0.001" classname="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest" name="testRemoveClientSubscriptions_notexistingClientID"/>
   <testcase time="0" classname="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest" name="testParseTopicSingleValid"/>
   <testcase time="0" classname="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest" name="testParseTopic"/>
   <testcase time="0.001" classname="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest" name="testMatchTopics_multi"/>
   <testcase time="0" classname="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest" name="testMatchSimpleMulti"/>
-  <testcase time="0" classname="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest" name="testRemoveClientSubscriptions_existingClientID"/>
+  <testcase time="0.001" classname="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest" name="testRemoveClientSubscriptions_existingClientID"/>
   <testcase time="0" classname="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest" name="testMatchSimpleMulti_zeroLevel"/>
   <testcase time="0" classname="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest" name="overridingSubscriptions"/>
   <testcase time="0" classname="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest" name="testMatchSimpleMulti_allTheTree"/>
-  <testcase time="0.001" classname="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest" name="removeSubscription_withDifferentClients_subscribedSameTopic"/>
+  <testcase time="0" classname="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest" name="removeSubscription_withDifferentClients_subscribedSameTopic"/>
   <testcase time="0" classname="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest" name="testMatchSlashSingle"/>
-  <testcase time="0.001" classname="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest" name="testMatchingDeepMulti_one_layer"/>
-  <testcase time="0.001" classname="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest" name="testParseTopicMultiValid"/>
+  <testcase time="0.002" classname="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest" name="testMatchingDeepMulti_one_layer"/>
+  <testcase time="0.002" classname="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest" name="testParseTopicMultiValid"/>
   <testcase time="0" classname="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest" name="testMatchTopics_simple"/>
-  <testcase time="0.008" classname="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest" name="testMatchTopics_single"/>
-  <testcase time="0" classname="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest" name="testMatchSimpleSingle"/>
+  <testcase time="0" classname="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest" name="testMatchTopics_single"/>
+  <testcase time="0.001" classname="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest" name="testMatchSimpleSingle"/>
   <testcase time="0" classname="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest" name="testMatchManyDeepSingle"/>
   <testcase time="0" classname="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest" name="rogerLightMatchTopics"/>
   <testcase time="0" classname="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest" name="testParseTopicSingleNotAferSeparatorNotValid"/>
   <testcase time="0" classname="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest" name="testMatchManySingle"/>
-  <testcase time="0" classname="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest" name="rogerLightTopicMatches"/>
-  <testcase time="0" classname="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest" name="testMatchSimple"/>
+  <testcase time="0.001" classname="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest" name="rogerLightTopicMatches"/>
+  <testcase time="0.001" classname="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest" name="testMatchSimple"/>
   <testcase time="0" classname="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest" name="testParseTopicMultiInTheMiddleNotValid"/>
-  <testcase time="0" classname="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest" name="testMatchingDeepMulti_two_layer"/>
+  <testcase time="0.001" classname="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest" name="testMatchingDeepMulti_two_layer"/>
   <testcase time="0" classname="org.eclipse.moquette.spi.impl.subscriptions.SubscriptionsStoreTest" name="testParseTopicMultiNotAferSeparatorNotValid"/>
 </testsuite>

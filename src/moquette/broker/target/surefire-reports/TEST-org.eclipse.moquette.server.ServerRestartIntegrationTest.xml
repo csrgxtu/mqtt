@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="4.395" errors="0" skipped="0" tests="2" name="org.eclipse.moquette.server.ServerRestartIntegrationTest">
+<testsuite failures="0" time="0.564" errors="2" skipped="0" tests="2" name="org.eclipse.moquette.server.ServerRestartIntegrationTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/home/archer/bin/jdk1.7.0_45/jre/lib/i386"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/archer/Documents/mqtt/test/moquette"/>
+    <property name="user.dir" value="/home/archer/Documents/mqtt/src/moquette/broker"/>
     <property name="java.runtime.version" value="1.7.0_45-b18"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/home/archer/bin/jdk1.7.0_45/jre/lib/endorsed"/>
@@ -59,6 +59,52 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="3.089" classname="org.eclipse.moquette.server.ServerRestartIntegrationTest" name="checkRestartCleanSubscriptionTree"/>
-  <testcase time="1.304" classname="org.eclipse.moquette.server.ServerRestartIntegrationTest" name="checkDontPublishInactiveClientsAfterServerRestart"/>
+  <testcase time="0.175" classname="org.eclipse.moquette.server.ServerRestartIntegrationTest" name="checkRestartCleanSubscriptionTree">
+    <error message="Address already in use" type="java.net.BindException">java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:101)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:478)
+	at io.netty.channel.DefaultChannelPipeline$HeadHandler.bind(DefaultChannelPipeline.java:1000)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeBind(DefaultChannelHandlerContext.java:451)
+	at io.netty.channel.DefaultChannelHandlerContext.bind(DefaultChannelHandlerContext.java:436)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:842)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:193)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:321)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:354)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:348)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:744)
+</error>
+    <system-out>Server stopping...
+Server stopped
+</system-out>
+  </testcase>
+  <testcase time="0.387" classname="org.eclipse.moquette.server.ServerRestartIntegrationTest" name="checkDontPublishInactiveClientsAfterServerRestart">
+    <error message="Address already in use" type="java.net.BindException">java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:101)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:478)
+	at io.netty.channel.DefaultChannelPipeline$HeadHandler.bind(DefaultChannelPipeline.java:1000)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeBind(DefaultChannelHandlerContext.java:451)
+	at io.netty.channel.DefaultChannelHandlerContext.bind(DefaultChannelHandlerContext.java:436)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:842)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:193)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:321)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:354)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:348)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:744)
+</error>
+    <system-out>Server stopping...
+Server stopped
+</system-out>
+  </testcase>
 </testsuite>
