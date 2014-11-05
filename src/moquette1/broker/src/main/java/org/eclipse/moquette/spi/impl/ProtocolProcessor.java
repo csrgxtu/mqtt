@@ -177,8 +177,10 @@ class ProtocolProcessor implements EventHandler<ValueEvent> {
         ConnectionDescriptor connDescr = new ConnectionDescriptor(msg.getClientID(), session, msg.isCleanSession());
         m_clientIDs.put(msg.getClientID(), connDescr);
 
+        msg.setKeepAlive(30);
         int keepAlive = msg.getKeepAlive();
         LOG.debug("Connect with keepAlive {} s",  keepAlive);
+        LOG.info("Connect with keepAlive {} s", keepAlive);
         session.setAttribute(Constants.KEEP_ALIVE, keepAlive);
         session.setAttribute(Constants.CLEAN_SESSION, msg.isCleanSession());
         //used to track the client in the subscription and publishing phases.

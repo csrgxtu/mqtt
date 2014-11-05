@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.004" errors="0" skipped="0" tests="4" name="org.eclipse.moquette.parser.netty.UnsubscribeDecoderTest">
+<testsuite failures="0" time="0.008" errors="0" skipped="0" tests="4" name="org.eclipse.moquette.parser.netty.UnsubscribeDecoderTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/home/archer/bin/jdk1.7.0_45/jre/lib/i386"/>
@@ -30,9 +30,9 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="51.0"/>
     <property name="sun.management.compiler" value="HotSpot Tiered Compilers"/>
-    <property name="os.version" value="3.13.0-37-generic"/>
+    <property name="os.version" value="3.13.0-39-generic"/>
     <property name="user.home" value="/home/archer"/>
-    <property name="user.timezone" value="America/New_York"/>
+    <property name="user.timezone" value="Asia/Hong_Kong"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="1.7"/>
@@ -41,7 +41,7 @@
     <property name="java.vm.specification.version" value="1.7"/>
     <property name="sun.arch.data.model" value="32"/>
     <property name="java.home" value="/home/archer/bin/jdk1.7.0_45/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -60,7 +60,7 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase time="0" classname="org.eclipse.moquette.parser.netty.UnsubscribeDecoderTest" name="testBadQos"/>
-  <testcase time="0" classname="org.eclipse.moquette.parser.netty.UnsubscribeDecoderTest" name="testDecodeSingleTopic_bug"/>
+  <testcase time="0.001" classname="org.eclipse.moquette.parser.netty.UnsubscribeDecoderTest" name="testDecodeSingleTopic_bug"/>
   <testcase time="0" classname="org.eclipse.moquette.parser.netty.UnsubscribeDecoderTest" name="testMultiTopic"/>
-  <testcase time="0" classname="org.eclipse.moquette.parser.netty.UnsubscribeDecoderTest" name="testFailOnEmptyTopic"/>
+  <testcase time="0.001" classname="org.eclipse.moquette.parser.netty.UnsubscribeDecoderTest" name="testFailOnEmptyTopic"/>
 </testsuite>

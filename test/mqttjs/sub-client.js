@@ -1,6 +1,6 @@
 var mqtt = require('mqtt')
 
-client = mqtt.createClient(1883, '127.0.0.1');
+client = mqtt.createClient(1884, '127.0.0.1');
 
 var options = {
   qos: 2,

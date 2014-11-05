@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.eclipse.moquette.server.ServerIntegrationWebSocketTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.8 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.598 sec

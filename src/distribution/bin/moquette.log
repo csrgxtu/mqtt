@@ -1,99 +1,12 @@
 0    [main] INFO  FileAuthenticator  - Loading password file: /home/archer/Documents/mqtt/src/distribution/config/password_file.conf
-376  [main] INFO  NettyAcceptor  - Server binded
-391  [main] INFO  NettyAcceptor  - Server binded
-407  [main] INFO  NettyAcceptor  - SSL is disabled
-155935 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <mqttjs_7984e826f5c1c6bd>
-156038 [pool-1-thread-1] WARN  ProtocolProcessor  - Connected client ID <mqttjs_7984e826f5c1c6bd> with clean session true
-156039 [pool-1-thread-1] INFO  ProtocolProcessor  - Create persistent session for clientID mqttjs_7984e826f5c1c6bd
-156249 [pool-1-thread-1] INFO  ProtocolProcessor  - <mqttjs_7984e826f5c1c6bd> subscribed to topic <csrgxtu> with QoS 0 - MOST_ONE
-184421 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <pahomqttpublish1>
-184530 [pool-1-thread-1] WARN  ProtocolProcessor  - Connected client ID <pahomqttpublish1> with clean session true
-184530 [pool-1-thread-1] INFO  ProtocolProcessor  - Create persistent session for clientID pahomqttpublish1
-184659 [pool-1-thread-1] INFO  ProtocolProcessor  - Publish recieved from clientID <pahomqttpublish1> on topic <PahoMqttPub/test> with QoS LEAST_ONE
-184893 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <pahomqttpublish1>
-185067 [pool-1-thread-1] WARN  ProtocolProcessor  - Disconnected client <pahomqttpublish1> with clean session true
-221632 [pool-1-thread-1] INFO  ProtocolProcessor  - Lost connection with client <mqttjs_7984e826f5c1c6bd>
-243291 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <mqttjs_e0d01bc870aef947>
-243389 [pool-1-thread-1] WARN  ProtocolProcessor  - Connected client ID <mqttjs_e0d01bc870aef947> with clean session true
-243389 [pool-1-thread-1] INFO  ProtocolProcessor  - Create persistent session for clientID mqttjs_e0d01bc870aef947
-243487 [pool-1-thread-1] INFO  ProtocolProcessor  - <mqttjs_e0d01bc870aef947> subscribed to topic <csrgxtu> with QoS 0 - MOST_ONE
-268792 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <pahomqttpublish1>
-268875 [pool-1-thread-1] WARN  ProtocolProcessor  - Connected client ID <pahomqttpublish1> with clean session true
-268875 [pool-1-thread-1] INFO  ProtocolProcessor  - Create persistent session for clientID pahomqttpublish1
-268997 [pool-1-thread-1] INFO  ProtocolProcessor  - Publish recieved from clientID <pahomqttpublish1> on topic <csrgxtu> with QoS LEAST_ONE
-269081 [pool-1-thread-1] INFO  ProtocolProcessor  - send publish message to <mqttjs_e0d01bc870aef947> on topic <csrgxtu>
-269171 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <pahomqttpublish1>
-269356 [pool-1-thread-1] WARN  ProtocolProcessor  - Disconnected client <pahomqttpublish1> with clean session true
-480160 [pool-1-thread-1] INFO  ProtocolProcessor  - Lost connection with client <mqttjs_e0d01bc870aef947>
-521920 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <mqttjs_08cdac2ff0fba461>
-522025 [pool-1-thread-1] WARN  ProtocolProcessor  - Connected client ID <mqttjs_08cdac2ff0fba461> with clean session true
-522026 [pool-1-thread-1] INFO  ProtocolProcessor  - Create persistent session for clientID mqttjs_08cdac2ff0fba461
-522123 [pool-1-thread-1] INFO  ProtocolProcessor  - <mqttjs_08cdac2ff0fba461> subscribed to topic <csrgxtu> with QoS 1 - LEAST_ONE
-539045 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <pahomqttpublish1>
-539140 [pool-1-thread-1] WARN  ProtocolProcessor  - Connected client ID <pahomqttpublish1> with clean session true
-539141 [pool-1-thread-1] INFO  ProtocolProcessor  - Create persistent session for clientID pahomqttpublish1
-539261 [pool-1-thread-1] INFO  ProtocolProcessor  - Publish recieved from clientID <pahomqttpublish1> on topic <csrgxtu> with QoS LEAST_ONE
-539345 [pool-1-thread-1] INFO  ProtocolProcessor  - send publish message to <mqttjs_08cdac2ff0fba461> on topic <csrgxtu>
-539445 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <pahomqttpublish1>
-539630 [pool-1-thread-1] WARN  ProtocolProcessor  - Disconnected client <pahomqttpublish1> with clean session true
-844921 [pool-1-thread-1] INFO  ProtocolProcessor  - Lost connection with client <mqttjs_08cdac2ff0fba461>
-1881636 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <pahomqttpublish1>
-1881736 [pool-1-thread-1] WARN  ProtocolProcessor  - Connected client ID <pahomqttpublish1> with clean session true
-1881736 [pool-1-thread-1] INFO  ProtocolProcessor  - Create persistent session for clientID pahomqttpublish1
-1881869 [pool-1-thread-1] INFO  ProtocolProcessor  - Publish recieved from clientID <pahomqttpublish1> on topic <csrgxtu> with QoS EXACTLY_ONCE
-1881920 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <pahomqttpublish1>
-1882119 [pool-1-thread-1] WARN  ProtocolProcessor  - Disconnected client <pahomqttpublish1> with clean session true
-2035395 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <mqttjs_5d1662fcb52765fd>
-2035479 [pool-1-thread-1] WARN  ProtocolProcessor  - Connected client ID <mqttjs_5d1662fcb52765fd> with clean session true
-2035479 [pool-1-thread-1] INFO  ProtocolProcessor  - Create persistent session for clientID mqttjs_5d1662fcb52765fd
-2035589 [pool-1-thread-1] INFO  ProtocolProcessor  - <mqttjs_5d1662fcb52765fd> subscribed to topic <csrgxtu> with QoS 2 - EXACTLY_ONCE
-2044779 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <pahomqttpublish1>
-2044878 [pool-1-thread-1] WARN  ProtocolProcessor  - Connected client ID <pahomqttpublish1> with clean session true
-2044878 [pool-1-thread-1] INFO  ProtocolProcessor  - Create persistent session for clientID pahomqttpublish1
-2045012 [pool-1-thread-1] INFO  ProtocolProcessor  - Publish recieved from clientID <pahomqttpublish1> on topic <csrgxtu> with QoS EXACTLY_ONCE
-2045053 [pool-1-thread-1] INFO  ProtocolProcessor  - send publish message to <mqttjs_5d1662fcb52765fd> on topic <csrgxtu>
-2045062 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <pahomqttpublish1>
-2045259 [pool-1-thread-1] WARN  ProtocolProcessor  - Disconnected client <pahomqttpublish1> with clean session true
-2052784 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <pahomqttpublish1>
-2052868 [pool-1-thread-1] WARN  ProtocolProcessor  - Connected client ID <pahomqttpublish1> with clean session true
-2052868 [pool-1-thread-1] INFO  ProtocolProcessor  - Create persistent session for clientID pahomqttpublish1
-2052987 [pool-1-thread-1] INFO  ProtocolProcessor  - Publish recieved from clientID <pahomqttpublish1> on topic <csrgxtu> with QoS EXACTLY_ONCE
-2053024 [pool-1-thread-1] INFO  ProtocolProcessor  - send publish message to <mqttjs_5d1662fcb52765fd> on topic <csrgxtu>
-2053032 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <pahomqttpublish1>
-2053228 [pool-1-thread-1] WARN  ProtocolProcessor  - Disconnected client <pahomqttpublish1> with clean session true
-2093870 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <pahomqttpublish1>
-2093948 [pool-1-thread-1] WARN  ProtocolProcessor  - Connected client ID <pahomqttpublish1> with clean session true
-2093948 [pool-1-thread-1] INFO  ProtocolProcessor  - Create persistent session for clientID pahomqttpublish1
-2094076 [pool-1-thread-1] INFO  ProtocolProcessor  - Publish recieved from clientID <pahomqttpublish1> on topic <csrgxtu> with QoS EXACTLY_ONCE
-2094113 [pool-1-thread-1] INFO  ProtocolProcessor  - send publish message to <mqttjs_5d1662fcb52765fd> on topic <csrgxtu>
-2094119 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <pahomqttpublish1>
-2094292 [pool-1-thread-1] WARN  ProtocolProcessor  - Disconnected client <pahomqttpublish1> with clean session true
-2097868 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <pahomqttpublish1>
-2097952 [pool-1-thread-1] WARN  ProtocolProcessor  - Connected client ID <pahomqttpublish1> with clean session true
-2097952 [pool-1-thread-1] INFO  ProtocolProcessor  - Create persistent session for clientID pahomqttpublish1
-2098084 [pool-1-thread-1] INFO  ProtocolProcessor  - Publish recieved from clientID <pahomqttpublish1> on topic <csrgxtu> with QoS EXACTLY_ONCE
-2098119 [pool-1-thread-1] INFO  ProtocolProcessor  - send publish message to <mqttjs_5d1662fcb52765fd> on topic <csrgxtu>
-2098124 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <pahomqttpublish1>
-2098300 [pool-1-thread-1] WARN  ProtocolProcessor  - Disconnected client <pahomqttpublish1> with clean session true
-2156297 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <pahomqttpublish1>
-2156381 [pool-1-thread-1] WARN  ProtocolProcessor  - Connected client ID <pahomqttpublish1> with clean session true
-2156381 [pool-1-thread-1] INFO  ProtocolProcessor  - Create persistent session for clientID pahomqttpublish1
-2156511 [pool-1-thread-1] INFO  ProtocolProcessor  - Publish recieved from clientID <pahomqttpublish1> on topic <csrgxtu> with QoS EXACTLY_ONCE
-2156552 [pool-1-thread-1] INFO  ProtocolProcessor  - send publish message to <mqttjs_5d1662fcb52765fd> on topic <csrgxtu>
-2156966 [pool-1-thread-1] INFO  ProtocolProcessor  - Lost connection with client <pahomqttpublish1>
-2156967 [pool-1-thread-1] INFO  ProtocolProcessor  - Publish recieved from clientID <pahomqttpublish1> on topic <csrgxtu> with QoS EXACTLY_ONCE
-2391717 [Thread-1] ERROR SimpleMessaging  - Can't stop the server in 10 seconds
-2391720 [Thread-1] INFO  NettyAcceptor  - Msg read: 93, msg wrote: 71
-1    [main] INFO  FileAuthenticator  - Loading password file: /home/archer/Documents/mqtt/src/distribution/config/password_file.conf
-197  [main] INFO  NettyAcceptor  - Server binded
-202  [main] INFO  NettyAcceptor  - Server binded
-202  [main] INFO  NettyAcceptor  - SSL is disabled
-23422 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <mqttjs_e12fc09ae45287d9>
-23522 [pool-1-thread-1] WARN  ProtocolProcessor  - Connected client ID <mqttjs_e12fc09ae45287d9> with clean session true
-23522 [pool-1-thread-1] INFO  ProtocolProcessor  - Create persistent session for clientID mqttjs_e12fc09ae45287d9
-23627 [pool-1-thread-1] INFO  ProtocolProcessor  - <mqttjs_e12fc09ae45287d9> subscribed to topic <csrgxtu> with QoS 2 - EXACTLY_ONCE
-1811958 [Thread-1] INFO  NettyAcceptor  - Msg read: 0, msg wrote: 0
-0    [main] INFO  FileAuthenticator  - Loading password file: /home/archer/Documents/mqtt/src/distribution/config/password_file.conf
-133  [main] INFO  NettyAcceptor  - Server binded
-139  [main] INFO  NettyAcceptor  - Server binded
-154  [main] INFO  NettyAcceptor  - SSL is disabled
+131  [main] INFO  NettyAcceptor  - Server binded
+135  [main] INFO  NettyAcceptor  - Server binded
+149  [main] INFO  NettyAcceptor  - SSL is disabled
+9863 [pool-1-thread-1] INFO  ProtocolProcessor  - Connect with keepAlive 30 s
+10007 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <paho_mqtt_pub>
+10123 [pool-1-thread-1] WARN  ProtocolProcessor  - Connected client ID <paho_mqtt_pub> with clean session true
+10123 [pool-1-thread-1] INFO  ProtocolProcessor  - Create persistent session for clientID paho_mqtt_pub
+10232 [pool-1-thread-1] INFO  ProtocolProcessor  - Publish recieved from clientID <paho_mqtt_pub> on topic <csrgxtu> with QoS MOST_ONE
+10235 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <paho_mqtt_pub>
+10416 [pool-1-thread-1] WARN  ProtocolProcessor  - Disconnected client <paho_mqtt_pub> with clean session true
+1145695 [Thread-1] INFO  NettyAcceptor  - Msg read: 6, msg wrote: 2
