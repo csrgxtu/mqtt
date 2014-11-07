@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.02" errors="0" skipped="0" tests="9" name="org.eclipse.moquette.parser.netty.PublishDecoderTest">
+<testsuite failures="0" time="0.011" errors="0" skipped="0" tests="9" name="org.eclipse.moquette.parser.netty.PublishDecoderTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/home/archer/bin/jdk1.7.0_45/jre/lib/i386"/>
@@ -59,13 +59,13 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="0.004" classname="org.eclipse.moquette.parser.netty.PublishDecoderTest" name="testHeader"/>
+  <testcase time="0.001" classname="org.eclipse.moquette.parser.netty.PublishDecoderTest" name="testHeader"/>
+  <testcase time="0.001" classname="org.eclipse.moquette.parser.netty.PublishDecoderTest" name="testDecodeBigContent"/>
+  <testcase time="0" classname="org.eclipse.moquette.parser.netty.PublishDecoderTest" name="testBadClaimMoreData"/>
   <testcase time="0.001" classname="org.eclipse.moquette.parser.netty.PublishDecoderTest" name="testHeaderWithMessageID"/>
   <testcase time="0" classname="org.eclipse.moquette.parser.netty.PublishDecoderTest" name="testHeaderWithMessageID_Payload"/>
-  <testcase time="0" classname="org.eclipse.moquette.parser.netty.PublishDecoderTest" name="testDup0WithQoS0_3_1_1"/>
-  <testcase time="0.001" classname="org.eclipse.moquette.parser.netty.PublishDecoderTest" name="testReservedQoS3_3_1_1"/>
-  <testcase time="0.001" classname="org.eclipse.moquette.parser.netty.PublishDecoderTest" name="testTopicWithWildCards"/>
+  <testcase time="0.001" classname="org.eclipse.moquette.parser.netty.PublishDecoderTest" name="testDup0WithQoS0_3_1_1"/>
+  <testcase time="0" classname="org.eclipse.moquette.parser.netty.PublishDecoderTest" name="testReservedQoS3_3_1_1"/>
+  <testcase time="0" classname="org.eclipse.moquette.parser.netty.PublishDecoderTest" name="testTopicWithWildCards"/>
   <testcase time="0" classname="org.eclipse.moquette.parser.netty.PublishDecoderTest" name="testBugOnRealCase"/>
-  <testcase time="0.001" classname="org.eclipse.moquette.parser.netty.PublishDecoderTest" name="testDecodeBigContent"/>
-  <testcase time="0.001" classname="org.eclipse.moquette.parser.netty.PublishDecoderTest" name="testBadClaimMoreData"/>
 </testsuite>

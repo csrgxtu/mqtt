@@ -1,12 +1,50 @@
 0    [main] INFO  FileAuthenticator  - Loading password file: /home/archer/Documents/mqtt/src/distribution/config/password_file.conf
-131  [main] INFO  NettyAcceptor  - Server binded
-135  [main] INFO  NettyAcceptor  - Server binded
-149  [main] INFO  NettyAcceptor  - SSL is disabled
-9863 [pool-1-thread-1] INFO  ProtocolProcessor  - Connect with keepAlive 30 s
-10007 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <paho_mqtt_pub>
-10123 [pool-1-thread-1] WARN  ProtocolProcessor  - Connected client ID <paho_mqtt_pub> with clean session true
-10123 [pool-1-thread-1] INFO  ProtocolProcessor  - Create persistent session for clientID paho_mqtt_pub
-10232 [pool-1-thread-1] INFO  ProtocolProcessor  - Publish recieved from clientID <paho_mqtt_pub> on topic <csrgxtu> with QoS MOST_ONE
-10235 [pool-1-thread-1] INFO  ProtocolProcessor  - cleaning old saved subscriptions for client <paho_mqtt_pub>
-10416 [pool-1-thread-1] WARN  ProtocolProcessor  - Disconnected client <paho_mqtt_pub> with clean session true
-1145695 [Thread-1] INFO  NettyAcceptor  - Msg read: 6, msg wrote: 2
+428  [main] INFO  NettyAcceptor  - Server binded
+442  [main] INFO  NettyAcceptor  - Server binded
+455  [main] INFO  NettyAcceptor  - SSL is disabled
+18168 [pool-1-thread-1] INFO  ProtocolProcessor  - Connect with keepAlive 30 s
+18373 [pool-1-thread-1] WARN  ProtocolProcessor  - Connected client ID <paho_mqtt_sub> with clean session false
+18374 [pool-1-thread-1] INFO  ProtocolProcessor  - Create persistent session for clientID paho_mqtt_sub
+18541 [pool-1-thread-1] INFO  ProtocolProcessor  - No stored messages for client <paho_mqtt_sub>
+18559 [pool-1-thread-1] INFO  ProtocolProcessor  - <paho_mqtt_sub> subscribed to topic <csrgxtu> with QoS 2 - EXACTLY_ONCE
+29090 [pool-1-thread-1] INFO  ProtocolProcessor  - Lost connection with client <paho_mqtt_sub>
+42391 [pool-1-thread-1] INFO  ProtocolProcessor  - Connect with keepAlive 30 s
+42506 [pool-1-thread-1] WARN  ProtocolProcessor  - Connected client ID <paho_mqtt_sub> with clean session false
+42506 [pool-1-thread-1] INFO  ProtocolProcessor  - Create persistent session for clientID paho_mqtt_sub
+42603 [pool-1-thread-1] INFO  ProtocolProcessor  - No stored messages for client <paho_mqtt_sub>
+42603 [pool-1-thread-1] INFO  ProtocolProcessor  - <paho_mqtt_sub> subscribed to topic <csrgxtu> with QoS 2 - EXACTLY_ONCE
+53582 [pool-1-thread-1] INFO  ProtocolProcessor  - Lost connection with client <paho_mqtt_sub>
+59688 [pool-1-thread-1] INFO  ProtocolProcessor  - Connect with keepAlive 30 s
+59786 [pool-1-thread-1] WARN  ProtocolProcessor  - Connected client ID <paho_mqtt_sub> with clean session false
+59786 [pool-1-thread-1] INFO  ProtocolProcessor  - Create persistent session for clientID paho_mqtt_sub
+59891 [pool-1-thread-1] INFO  ProtocolProcessor  - No stored messages for client <paho_mqtt_sub>
+59892 [pool-1-thread-1] INFO  ProtocolProcessor  - <paho_mqtt_sub> subscribed to topic <csrgxtu> with QoS 2 - EXACTLY_ONCE
+66504 [pool-1-thread-1] INFO  ProtocolProcessor  - Lost connection with client <paho_mqtt_sub>
+72009 [pool-1-thread-1] INFO  ProtocolProcessor  - Connect with keepAlive 30 s
+72109 [pool-1-thread-1] WARN  ProtocolProcessor  - Connected client ID <paho_mqtt_pub> with clean session false
+72109 [pool-1-thread-1] INFO  ProtocolProcessor  - Create persistent session for clientID paho_mqtt_pub
+72243 [pool-1-thread-1] INFO  ProtocolProcessor  - No stored messages for client <paho_mqtt_pub>
+72243 [pool-1-thread-1] INFO  ProtocolProcessor  - Publish recieved from clientID <paho_mqtt_pub> on topic <csrgxtu> with QoS EXACTLY_ONCE
+72575 [pool-1-thread-1] WARN  ProtocolProcessor  - Disconnected client <paho_mqtt_pub> with clean session false
+80441 [pool-1-thread-1] INFO  ProtocolProcessor  - Connect with keepAlive 30 s
+80547 [pool-1-thread-1] WARN  ProtocolProcessor  - Connected client ID <paho_mqtt_sub> with clean session false
+80547 [pool-1-thread-1] INFO  ProtocolProcessor  - Create persistent session for clientID paho_mqtt_sub
+80665 [pool-1-thread-1] INFO  ProtocolProcessor  - republishing stored messages to client <paho_mqtt_sub>
+80666 [pool-1-thread-1] INFO  ProtocolProcessor  - send publish message to <paho_mqtt_sub> on topic <csrgxtu>
+80666 [pool-1-thread-1] INFO  ProtocolProcessor  - <paho_mqtt_sub> subscribed to topic <csrgxtu> with QoS 2 - EXACTLY_ONCE
+80710 [pool-1-thread-1] INFO  ProtocolProcessor  - processPubComp invoked for clientId paho_mqtt_sub and messageId 1
+80711 [pool-1-thread-1] INFO  ProtocolProcessor  - processPubComp clean clientID paho_mqtt_sub and messageID 1
+91227 [pool-1-thread-1] INFO  ProtocolProcessor  - Lost connection with client <paho_mqtt_sub>
+100608 [pool-1-thread-1] INFO  ProtocolProcessor  - Connect with keepAlive 30 s
+100720 [pool-1-thread-1] WARN  ProtocolProcessor  - Connected client ID <paho_mqtt_sub> with clean session false
+100720 [pool-1-thread-1] INFO  ProtocolProcessor  - Create persistent session for clientID paho_mqtt_sub
+100824 [pool-1-thread-1] INFO  ProtocolProcessor  - republishing stored messages to client <paho_mqtt_sub>
+100825 [pool-1-thread-1] INFO  ProtocolProcessor  - <paho_mqtt_sub> subscribed to topic <csrgxtu> with QoS 2 - EXACTLY_ONCE
+145946 [pool-1-thread-1] INFO  ProtocolProcessor  - Lost connection with client <paho_mqtt_sub>
+195359 [pool-1-thread-1] INFO  ProtocolProcessor  - Connect with keepAlive 30 s
+195457 [pool-1-thread-1] WARN  ProtocolProcessor  - Connected client ID <paho_mqtt_sub> with clean session false
+195457 [pool-1-thread-1] INFO  ProtocolProcessor  - Create persistent session for clientID paho_mqtt_sub
+195554 [pool-1-thread-1] INFO  ProtocolProcessor  - republishing stored messages to client <paho_mqtt_sub>
+195554 [pool-1-thread-1] INFO  ProtocolProcessor  - <paho_mqtt_sub> subscribed to topic <csrgxtu> with QoS 2 - EXACTLY_ONCE
+221450 [pool-1-thread-1] INFO  ProtocolProcessor  - Lost connection with client <paho_mqtt_sub>
+224508 [Thread-1] INFO  NettyAcceptor  - Msg read: 22, msg wrote: 20

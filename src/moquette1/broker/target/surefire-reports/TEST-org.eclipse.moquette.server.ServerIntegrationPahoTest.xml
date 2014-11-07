@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="23.122" errors="0" skipped="0" tests="14" name="org.eclipse.moquette.server.ServerIntegrationPahoTest">
+<testsuite failures="0" time="27.21" errors="0" skipped="0" tests="14" name="org.eclipse.moquette.server.ServerIntegrationPahoTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/home/archer/bin/jdk1.7.0_45/jre/lib/i386"/>
@@ -59,18 +59,18 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="2.332" classname="org.eclipse.moquette.server.ServerIntegrationPahoTest" name="testUnsubscribe_do_not_notify_anymore_same_session"/>
-  <testcase time="1.606" classname="org.eclipse.moquette.server.ServerIntegrationPahoTest" name="testPublishReceiveWithQoS2"/>
-  <testcase time="0.863" classname="org.eclipse.moquette.server.ServerIntegrationPahoTest" name="testCleanSession_maintainClientSubscriptions"/>
-  <testcase time="1.885" classname="org.eclipse.moquette.server.ServerIntegrationPahoTest" name="testUnsubscribe_do_not_notify_anymore_new_session"/>
-  <testcase time="1.184" classname="org.eclipse.moquette.server.ServerIntegrationPahoTest" name="testPublishWithQoS1"/>
-  <testcase time="1.703" classname="org.eclipse.moquette.server.ServerIntegrationPahoTest" name="testPublishWithQoS2"/>
-  <testcase time="1.579" classname="org.eclipse.moquette.server.ServerIntegrationPahoTest" name="checkReceivePublishedMessage_after_a_reconnect_with_notCleanSession"/>
-  <testcase time="1.086" classname="org.eclipse.moquette.server.ServerIntegrationPahoTest" name="testCleanSession_maintainClientSubscriptions_withServerRestart"/>
-  <testcase time="1.892" classname="org.eclipse.moquette.server.ServerIntegrationPahoTest" name="testPublishWithQoS1_notCleanSession"/>
-  <testcase time="1.728" classname="org.eclipse.moquette.server.ServerIntegrationPahoTest" name="testRetain_maintainMessage_againstClientDestruction"/>
-  <testcase time="2.023" classname="org.eclipse.moquette.server.ServerIntegrationPahoTest" name="testCleanSession_correctlyClientSubscriptions"/>
-  <testcase time="0.842" classname="org.eclipse.moquette.server.ServerIntegrationPahoTest" name="testSubscribe"/>
-  <testcase time="3.092" classname="org.eclipse.moquette.server.ServerIntegrationPahoTest" name="avoidMultipleNotificationsAfterMultipleReconnection_cleanSessionFalseQoS1"/>
-  <testcase time="1.298" classname="org.eclipse.moquette.server.ServerIntegrationPahoTest" name="testCleanSession_maintainClientSubscriptions_againstClientDestruction"/>
+  <testcase time="2.445" classname="org.eclipse.moquette.server.ServerIntegrationPahoTest" name="testUnsubscribe_do_not_notify_anymore_same_session"/>
+  <testcase time="2.179" classname="org.eclipse.moquette.server.ServerIntegrationPahoTest" name="testPublishReceiveWithQoS2"/>
+  <testcase time="1.091" classname="org.eclipse.moquette.server.ServerIntegrationPahoTest" name="testCleanSession_maintainClientSubscriptions"/>
+  <testcase time="1.978" classname="org.eclipse.moquette.server.ServerIntegrationPahoTest" name="testUnsubscribe_do_not_notify_anymore_new_session"/>
+  <testcase time="1.289" classname="org.eclipse.moquette.server.ServerIntegrationPahoTest" name="testPublishWithQoS1"/>
+  <testcase time="2.235" classname="org.eclipse.moquette.server.ServerIntegrationPahoTest" name="testPublishWithQoS2"/>
+  <testcase time="2.193" classname="org.eclipse.moquette.server.ServerIntegrationPahoTest" name="checkReceivePublishedMessage_after_a_reconnect_with_notCleanSession"/>
+  <testcase time="1.364" classname="org.eclipse.moquette.server.ServerIntegrationPahoTest" name="testCleanSession_maintainClientSubscriptions_withServerRestart"/>
+  <testcase time="2.32" classname="org.eclipse.moquette.server.ServerIntegrationPahoTest" name="testPublishWithQoS1_notCleanSession"/>
+  <testcase time="1.844" classname="org.eclipse.moquette.server.ServerIntegrationPahoTest" name="testRetain_maintainMessage_againstClientDestruction"/>
+  <testcase time="2.192" classname="org.eclipse.moquette.server.ServerIntegrationPahoTest" name="testCleanSession_correctlyClientSubscriptions"/>
+  <testcase time="1.198" classname="org.eclipse.moquette.server.ServerIntegrationPahoTest" name="testSubscribe"/>
+  <testcase time="3.572" classname="org.eclipse.moquette.server.ServerIntegrationPahoTest" name="avoidMultipleNotificationsAfterMultipleReconnection_cleanSessionFalseQoS1"/>
+  <testcase time="1.305" classname="org.eclipse.moquette.server.ServerIntegrationPahoTest" name="testCleanSession_maintainClientSubscriptions_againstClientDestruction"/>
 </testsuite>

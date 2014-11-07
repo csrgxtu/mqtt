@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.eclipse.moquette.server.ServerIntegrationQoSValidationTest
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.516 sec
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.648 sec

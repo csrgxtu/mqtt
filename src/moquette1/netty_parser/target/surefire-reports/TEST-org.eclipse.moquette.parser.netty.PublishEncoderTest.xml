@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.019" errors="0" skipped="0" tests="8" name="org.eclipse.moquette.parser.netty.PublishEncoderTest">
+<testsuite failures="0" time="0.012" errors="0" skipped="0" tests="8" name="org.eclipse.moquette.parser.netty.PublishEncoderTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/home/archer/bin/jdk1.7.0_45/jre/lib/i386"/>
@@ -60,11 +60,11 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase time="0.001" classname="org.eclipse.moquette.parser.netty.PublishEncoderTest" name="testEncodeWithQos_0_noMessageID"/>
-  <testcase time="0.001" classname="org.eclipse.moquette.parser.netty.PublishEncoderTest" name="testEncodeWithQos_1_MessageID"/>
   <testcase time="0" classname="org.eclipse.moquette.parser.netty.PublishEncoderTest" name="testEncodeWithQos_1_noMessageID_fail"/>
-  <testcase time="0.001" classname="org.eclipse.moquette.parser.netty.PublishEncoderTest" name="testEncode_empty_topic"/>
+  <testcase time="0" classname="org.eclipse.moquette.parser.netty.PublishEncoderTest" name="testEncode_empty_topic"/>
   <testcase time="0.001" classname="org.eclipse.moquette.parser.netty.PublishEncoderTest" name="testEncode_null_topic"/>
-  <testcase time="0.001" classname="org.eclipse.moquette.parser.netty.PublishEncoderTest" name="testEncode_qos_reserved"/>
+  <testcase time="0" classname="org.eclipse.moquette.parser.netty.PublishEncoderTest" name="testEncode_qos_reserved"/>
   <testcase time="0" classname="org.eclipse.moquette.parser.netty.PublishEncoderTest" name="testBugMissedMessageIDEncoding"/>
   <testcase time="0.001" classname="org.eclipse.moquette.parser.netty.PublishEncoderTest" name="testEncodeBigMessage"/>
+  <testcase time="0.001" classname="org.eclipse.moquette.parser.netty.PublishEncoderTest" name="testEncodeWithQos_1_MessageID"/>
 </testsuite>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.003" errors="0" skipped="0" tests="3" name="org.eclipse.moquette.spi.impl.FileAuthenticatorTest">
+<testsuite failures="0" time="0.002" errors="0" skipped="0" tests="3" name="org.eclipse.moquette.spi.impl.FileAuthenticatorTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/home/archer/bin/jdk1.7.0_45/jre/lib/i386"/>
@@ -60,6 +60,6 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase time="0" classname="org.eclipse.moquette.spi.impl.FileAuthenticatorTest" name="loadPasswordFile_verifyValid"/>
-  <testcase time="0" classname="org.eclipse.moquette.spi.impl.FileAuthenticatorTest" name="loadPasswordFile_verifyInvalid"/>
-  <testcase time="0.001" classname="org.eclipse.moquette.spi.impl.FileAuthenticatorTest" name="loadPasswordFile_verifyDirectoryRef"/>
+  <testcase time="0.001" classname="org.eclipse.moquette.spi.impl.FileAuthenticatorTest" name="loadPasswordFile_verifyInvalid"/>
+  <testcase time="0" classname="org.eclipse.moquette.spi.impl.FileAuthenticatorTest" name="loadPasswordFile_verifyDirectoryRef"/>
 </testsuite>

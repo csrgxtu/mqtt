@@ -695,3 +695,444 @@
 17:15:53,510 [main] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
 17:15:53,815 [main] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session false
 17:15:54,429 [main] WARN  FileAuthenticator 45  - Bad file reference / is a directory
+10:19:18,629 [pool-1-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:19:20,034 [pool-1-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:19:20,432 [pool-3-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:19:20,719 [pool-3-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:19:20,912 [pool-3-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClientPUB> with clean session true
+10:19:21,424 [pool-3-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClientPUB> with clean session true
+10:19:21,512 [pool-3-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:19:21,739 [pool-3-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:19:22,518 [pool-5-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:19:22,817 [pool-5-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:19:22,903 [pool-5-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:19:43,652 [main] ERROR SimpleMessaging 131  - Can't stop the server in 10 seconds
+10:19:44,132 [pool-9-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session true
+10:19:44,815 [pool-9-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session true
+10:19:45,265 [pool-11-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:19:45,583 [pool-11-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:19:45,787 [pool-11-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClientPUB> with clean session true
+10:19:46,280 [pool-11-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClientPUB> with clean session true
+10:19:46,386 [pool-11-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:19:46,622 [pool-11-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:19:47,116 [pool-13-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:19:47,457 [pool-13-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:19:47,555 [pool-13-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:19:47,875 [pool-13-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClientPUB> with clean session true
+10:19:48,502 [pool-13-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClientPUB> with clean session true
+10:19:48,608 [pool-13-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:19:49,040 [pool-15-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:19:49,411 [pool-15-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:19:49,590 [pool-17-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:19:49,831 [pool-17-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:19:50,262 [pool-19-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:19:50,578 [pool-19-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:19:50,779 [pool-19-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClientPUB> with clean session true
+10:19:51,548 [pool-19-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClientPUB> with clean session true
+10:19:51,654 [pool-19-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:19:52,040 [pool-19-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:19:52,580 [pool-21-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session true
+10:19:53,202 [pool-21-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session true
+10:19:53,440 [pool-21-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session true
+10:19:53,855 [pool-21-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session true
+10:19:54,310 [pool-23-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:19:54,593 [pool-23-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:19:54,764 [pool-23-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session true
+10:19:55,939 [pool-23-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session true
+10:19:56,408 [pool-25-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session true
+10:19:56,910 [pool-25-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session true
+10:19:57,270 [pool-27-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:19:57,524 [pool-27-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:19:57,690 [pool-27-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClientPUB> with clean session true
+10:19:58,396 [pool-27-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClientPUB> with clean session true
+10:19:58,543 [pool-27-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:19:58,798 [pool-27-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:19:59,000 [pool-27-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClientPUB> with clean session true
+10:19:59,635 [pool-27-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClientPUB> with clean session true
+10:19:59,723 [pool-27-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:20:00,006 [pool-27-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:20:00,480 [pool-29-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:20:00,740 [pool-29-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:20:00,846 [pool-29-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:20:01,075 [pool-29-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:20:01,672 [pool-31-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session true
+10:20:02,011 [pool-31-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:20:02,472 [pool-31-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Publisher> with clean session true
+10:20:02,646 [pool-31-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session true
+10:20:03,176 [pool-33-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session true
+10:20:03,463 [pool-33-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:20:03,894 [pool-33-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Publisher> with clean session true
+10:20:04,048 [pool-33-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session true
+10:20:04,568 [pool-35-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session true
+10:20:04,867 [pool-35-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:20:05,527 [pool-35-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Publisher> with clean session true
+10:20:05,695 [pool-35-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session true
+10:20:06,247 [pool-37-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session true
+10:20:06,502 [pool-37-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:20:06,979 [pool-37-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Publisher> with clean session true
+10:20:07,266 [pool-37-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session true
+10:20:07,782 [pool-39-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session true
+10:20:08,085 [pool-39-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:20:08,768 [pool-39-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Publisher> with clean session true
+10:20:08,936 [pool-39-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session true
+10:20:09,464 [pool-41-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session true
+10:20:09,728 [pool-41-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:20:10,274 [pool-41-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Publisher> with clean session true
+10:20:10,555 [pool-41-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session true
+10:20:11,204 [pool-43-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session true
+10:20:11,510 [pool-43-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:20:11,922 [pool-43-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Publisher> with clean session true
+10:20:12,110 [pool-43-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session true
+10:20:12,562 [pool-45-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session true
+10:20:12,912 [pool-45-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:20:13,626 [pool-45-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Publisher> with clean session true
+10:20:13,803 [pool-45-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session true
+10:20:14,275 [pool-47-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session true
+10:20:14,678 [pool-47-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:20:15,150 [pool-47-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Publisher> with clean session true
+10:20:15,331 [pool-47-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session true
+10:20:16,173 [pool-49-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <WillTestamentPublisher> with clean session true
+10:20:16,386 [pool-49-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session false
+10:20:16,854 [pool-49-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session false
+10:20:17,420 [pool-51-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:20:17,671 [pool-51-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session false
+10:20:18,031 [pool-51-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session false
+10:20:18,429 [pool-51-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session false
+10:20:18,727 [pool-51-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session false
+10:20:18,969 [pool-51-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Publisher> with clean session true
+10:20:19,405 [pool-53-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session false
+10:20:19,952 [pool-53-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session false
+10:20:20,169 [pool-53-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:20:21,223 [pool-53-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Publisher> with clean session true
+10:20:21,342 [pool-53-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session false
+10:20:21,571 [pool-53-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session false
+10:20:22,292 [pool-55-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:20:22,615 [pool-55-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session false
+10:20:23,155 [pool-55-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session false
+10:20:23,875 [pool-55-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session false
+10:20:24,163 [pool-55-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session false
+10:20:24,268 [pool-55-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session false
+10:20:24,582 [pool-55-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session false
+10:20:24,788 [pool-55-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Publisher> with clean session true
+10:20:25,327 [pool-57-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:20:25,639 [pool-57-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Publisher> with clean session true
+10:20:27,155 [pool-61-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session false
+10:20:27,499 [pool-61-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session false
+10:20:28,031 [pool-63-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session false
+10:20:28,471 [pool-63-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:20:29,886 [pool-63-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session false
+10:20:30,074 [pool-63-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Publisher> with clean session true
+10:20:30,440 [pool-65-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <SubPub> with clean session false
+10:20:30,747 [pool-65-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <SubPub> with clean session false
+10:20:30,992 [pool-67-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:20:31,362 [pool-67-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Publisher> with clean session true
+10:20:32,300 [pool-69-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session true
+10:20:32,684 [pool-69-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session true
+10:20:34,354 [main] WARN  ProtocolProcessor 231  - Connected client ID <FAKE_123> with clean session true
+10:20:34,355 [main] WARN  ProtocolProcessor 231  - Connected client ID <FAKE_456> with clean session true
+10:20:35,065 [main] WARN  ProtocolProcessor 231  - Connected client ID <123> with clean session false
+10:20:35,372 [main] WARN  ProtocolProcessor 231  - Connected client ID <123> with clean session false
+10:20:35,678 [main] WARN  ProtocolProcessor 231  - Connected client ID <FAKE_123> with clean session true
+10:20:36,285 [main] WARN  ProtocolProcessor 231  - Connected client ID <CliID> with clean session false
+10:20:36,286 [main] WARN  ProtocolProcessor 529  - Disconnected client <CliID> with clean session false
+10:20:36,287 [main] WARN  ProtocolProcessor 231  - Connected client ID <CliID> with clean session false
+10:20:36,591 [main] WARN  ProtocolProcessor 151  - processConnect sent bad proto ConnAck
+10:20:37,505 [main] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:20:37,809 [main] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session false
+10:20:38,423 [main] WARN  FileAuthenticator 45  - Bad file reference / is a directory
+10:26:03,671 [pool-1-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:26:05,055 [pool-1-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:26:05,507 [pool-3-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:26:05,780 [pool-3-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:26:05,984 [pool-3-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClientPUB> with clean session true
+10:26:06,643 [pool-3-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClientPUB> with clean session true
+10:26:06,732 [pool-3-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:26:06,953 [pool-3-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:26:07,360 [pool-5-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:26:07,742 [pool-5-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:26:07,853 [pool-5-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:26:08,419 [pool-7-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:26:08,701 [pool-7-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:26:08,792 [pool-7-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:26:09,883 [pool-7-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:26:10,449 [pool-9-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session true
+10:26:11,139 [pool-9-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session true
+10:26:11,573 [pool-11-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:26:11,932 [pool-11-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:26:12,174 [pool-11-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClientPUB> with clean session true
+10:26:12,752 [pool-11-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClientPUB> with clean session true
+10:26:12,860 [pool-11-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:26:13,160 [pool-11-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:26:13,603 [pool-13-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:26:13,952 [pool-13-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:26:14,071 [pool-13-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:26:14,418 [pool-13-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClientPUB> with clean session true
+10:26:14,984 [pool-13-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClientPUB> with clean session true
+10:26:15,092 [pool-13-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:26:15,558 [pool-15-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:26:15,895 [pool-15-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:26:16,076 [pool-17-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:26:16,304 [pool-17-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:26:16,723 [pool-19-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:26:17,107 [pool-19-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:26:17,334 [pool-19-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClientPUB> with clean session true
+10:26:18,091 [pool-19-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClientPUB> with clean session true
+10:26:18,199 [pool-19-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:26:18,533 [pool-19-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:26:19,040 [pool-21-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session true
+10:26:19,703 [pool-21-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session true
+10:26:19,925 [pool-21-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session true
+10:26:20,359 [pool-21-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session true
+10:26:20,777 [pool-23-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:26:21,246 [pool-23-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:26:21,452 [pool-23-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session true
+10:26:22,640 [pool-23-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session true
+10:26:23,155 [pool-25-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session true
+10:26:23,552 [pool-25-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session true
+10:26:24,008 [pool-27-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:26:24,306 [pool-27-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:26:24,501 [pool-27-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClientPUB> with clean session true
+10:26:25,171 [pool-27-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClientPUB> with clean session true
+10:26:25,268 [pool-27-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:26:25,544 [pool-27-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:26:25,730 [pool-27-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClientPUB> with clean session true
+10:26:26,356 [pool-27-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClientPUB> with clean session true
+10:26:26,452 [pool-27-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:26:26,747 [pool-27-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:26:27,126 [pool-29-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:26:27,739 [pool-29-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:26:27,836 [pool-29-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:26:28,076 [pool-29-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session false
+10:26:28,638 [pool-31-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session true
+10:26:28,952 [pool-31-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:26:29,395 [pool-31-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Publisher> with clean session true
+10:26:29,600 [pool-31-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session true
+10:26:30,188 [pool-33-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session true
+10:26:30,464 [pool-33-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:26:30,920 [pool-33-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Publisher> with clean session true
+10:26:31,119 [pool-33-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session true
+10:26:31,651 [pool-35-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session true
+10:26:31,963 [pool-35-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:26:32,803 [pool-35-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Publisher> with clean session true
+10:26:33,013 [pool-35-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session true
+10:26:33,561 [pool-37-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session true
+10:26:33,832 [pool-37-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:26:34,223 [pool-37-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Publisher> with clean session true
+10:26:34,412 [pool-37-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session true
+10:26:34,903 [pool-39-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session true
+10:26:35,301 [pool-39-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:26:36,031 [pool-39-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Publisher> with clean session true
+10:26:36,236 [pool-39-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session true
+10:26:36,752 [pool-41-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session true
+10:26:37,039 [pool-41-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:26:37,747 [pool-41-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Publisher> with clean session true
+10:26:37,943 [pool-41-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session true
+10:26:38,420 [pool-43-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session true
+10:26:38,720 [pool-43-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:26:39,163 [pool-43-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Publisher> with clean session true
+10:26:39,399 [pool-43-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session true
+10:26:39,915 [pool-45-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session true
+10:26:40,215 [pool-45-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:26:41,042 [pool-45-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Publisher> with clean session true
+10:26:41,240 [pool-45-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session true
+10:26:41,695 [pool-47-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session true
+10:26:42,022 [pool-47-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:26:42,495 [pool-47-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Publisher> with clean session true
+10:26:42,763 [pool-47-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session true
+10:26:43,525 [pool-49-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <WillTestamentPublisher> with clean session true
+10:26:43,747 [pool-49-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session false
+10:26:44,183 [pool-49-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session false
+10:26:44,728 [pool-51-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:26:44,937 [pool-51-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session false
+10:26:45,242 [pool-51-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session false
+10:26:45,798 [pool-51-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session false
+10:26:46,242 [pool-51-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session false
+10:26:46,467 [pool-51-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Publisher> with clean session true
+10:26:46,902 [pool-53-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session false
+10:26:47,275 [pool-53-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session false
+10:26:47,515 [pool-53-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:26:48,510 [pool-53-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Publisher> with clean session true
+10:26:48,597 [pool-53-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session false
+10:26:48,771 [pool-53-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session false
+10:26:49,292 [pool-55-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:26:49,568 [pool-55-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session false
+10:26:50,108 [pool-55-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session false
+10:26:50,910 [pool-55-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session false
+10:26:51,271 [pool-55-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session false
+10:26:51,415 [pool-55-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session false
+10:26:51,763 [pool-55-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session false
+10:26:52,024 [pool-55-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Publisher> with clean session true
+10:26:52,604 [pool-57-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:26:52,974 [pool-57-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Publisher> with clean session true
+10:26:54,236 [pool-61-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session false
+10:26:54,617 [pool-61-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session false
+10:26:55,149 [pool-63-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session false
+10:26:55,578 [pool-63-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:26:56,959 [pool-63-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Subscriber> with clean session false
+10:26:57,161 [pool-63-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Publisher> with clean session true
+10:26:57,690 [pool-65-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <SubPub> with clean session false
+10:26:57,998 [pool-65-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <SubPub> with clean session false
+10:26:58,243 [pool-67-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:26:58,616 [pool-67-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <Publisher> with clean session true
+10:26:59,599 [pool-69-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session true
+10:27:00,018 [pool-69-thread-1] WARN  ProtocolProcessor 529  - Disconnected client <TestClient> with clean session true
+10:27:01,578 [main] WARN  ProtocolProcessor 231  - Connected client ID <FAKE_123> with clean session true
+10:27:01,578 [main] WARN  ProtocolProcessor 231  - Connected client ID <FAKE_456> with clean session true
+10:27:02,288 [main] WARN  ProtocolProcessor 231  - Connected client ID <123> with clean session false
+10:27:02,592 [main] WARN  ProtocolProcessor 231  - Connected client ID <123> with clean session false
+10:27:02,898 [main] WARN  ProtocolProcessor 231  - Connected client ID <FAKE_123> with clean session true
+10:27:03,505 [main] WARN  ProtocolProcessor 231  - Connected client ID <CliID> with clean session false
+10:27:03,507 [main] WARN  ProtocolProcessor 529  - Disconnected client <CliID> with clean session false
+10:27:03,507 [main] WARN  ProtocolProcessor 231  - Connected client ID <CliID> with clean session false
+10:27:03,833 [main] WARN  ProtocolProcessor 151  - processConnect sent bad proto ConnAck
+10:27:04,747 [main] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:27:05,051 [main] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session false
+10:27:05,667 [main] WARN  FileAuthenticator 45  - Bad file reference / is a directory
+10:52:01,337 [pool-1-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:52:02,731 [pool-1-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <TestClient> with clean session false
+10:52:03,221 [pool-3-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:52:03,581 [pool-3-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <TestClient> with clean session false
+10:52:03,836 [pool-3-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClientPUB> with clean session true
+10:52:04,352 [pool-3-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <TestClientPUB> with clean session true
+10:52:04,456 [pool-3-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:52:04,904 [pool-3-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <TestClient> with clean session false
+10:52:05,396 [pool-5-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:52:05,778 [pool-5-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <TestClient> with clean session false
+10:52:05,888 [pool-5-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:52:06,426 [pool-7-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:52:06,763 [pool-7-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <TestClient> with clean session false
+10:52:06,859 [pool-7-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:52:07,963 [pool-7-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <TestClient> with clean session false
+10:52:08,564 [pool-9-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session true
+10:52:09,272 [pool-9-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <TestClient> with clean session true
+10:52:09,815 [pool-11-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:52:10,172 [pool-11-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <TestClient> with clean session false
+10:52:10,519 [pool-11-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClientPUB> with clean session true
+10:52:11,019 [pool-11-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <TestClientPUB> with clean session true
+10:52:11,132 [pool-11-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:52:11,504 [pool-11-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <TestClient> with clean session false
+10:52:12,007 [pool-13-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:52:12,410 [pool-13-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <TestClient> with clean session false
+10:52:12,572 [pool-13-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:52:12,944 [pool-13-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClientPUB> with clean session true
+10:52:13,579 [pool-13-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <TestClientPUB> with clean session true
+10:52:13,698 [pool-13-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <TestClient> with clean session false
+10:52:14,191 [pool-15-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:52:14,564 [pool-15-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <TestClient> with clean session false
+10:52:14,800 [pool-17-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:52:15,055 [pool-17-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <TestClient> with clean session false
+10:52:15,691 [pool-19-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:52:16,015 [pool-19-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <TestClient> with clean session false
+10:52:16,219 [pool-19-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClientPUB> with clean session true
+10:52:16,988 [pool-19-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <TestClientPUB> with clean session true
+10:52:17,104 [pool-19-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:52:17,383 [pool-19-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <TestClient> with clean session false
+10:52:17,885 [pool-21-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session true
+10:52:18,603 [pool-21-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <TestClient> with clean session true
+10:52:18,804 [pool-21-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session true
+10:52:19,230 [pool-21-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <TestClient> with clean session true
+10:52:19,662 [pool-23-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:52:20,004 [pool-23-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <TestClient> with clean session false
+10:52:20,201 [pool-23-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session true
+10:52:21,426 [pool-23-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <TestClient> with clean session true
+10:52:21,969 [pool-25-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session true
+10:52:22,596 [pool-25-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <TestClient> with clean session true
+10:52:23,095 [pool-27-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:52:23,478 [pool-27-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <TestClient> with clean session false
+10:52:23,697 [pool-27-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClientPUB> with clean session true
+10:52:24,416 [pool-27-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <TestClientPUB> with clean session true
+10:52:24,515 [pool-27-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:52:24,811 [pool-27-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <TestClient> with clean session false
+10:52:25,015 [pool-27-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClientPUB> with clean session true
+10:52:25,775 [pool-27-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <TestClientPUB> with clean session true
+10:52:25,909 [pool-27-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:52:26,188 [pool-27-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <TestClient> with clean session false
+10:52:26,674 [pool-29-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:52:27,052 [pool-29-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <TestClient> with clean session false
+10:52:27,204 [pool-29-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session false
+10:52:27,486 [pool-29-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <TestClient> with clean session false
+10:52:28,149 [pool-31-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session true
+10:52:28,543 [pool-31-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:52:29,129 [pool-31-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <Publisher> with clean session true
+10:52:29,335 [pool-31-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <Subscriber> with clean session true
+10:52:29,841 [pool-33-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session true
+10:52:30,354 [pool-33-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:52:30,988 [pool-33-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <Publisher> with clean session true
+10:52:31,254 [pool-33-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <Subscriber> with clean session true
+10:52:31,748 [pool-35-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session true
+10:52:32,090 [pool-35-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:52:32,841 [pool-35-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <Publisher> with clean session true
+10:52:33,091 [pool-35-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <Subscriber> with clean session true
+10:52:33,639 [pool-37-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session true
+10:52:33,960 [pool-37-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:52:34,398 [pool-37-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <Publisher> with clean session true
+10:52:34,573 [pool-37-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <Subscriber> with clean session true
+10:52:35,337 [pool-39-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session true
+10:52:35,774 [pool-39-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:52:36,631 [pool-39-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <Publisher> with clean session true
+10:52:36,832 [pool-39-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <Subscriber> with clean session true
+10:52:37,408 [pool-41-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session true
+10:52:37,815 [pool-41-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:52:38,694 [pool-41-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <Publisher> with clean session true
+10:52:38,979 [pool-41-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <Subscriber> with clean session true
+10:52:39,511 [pool-43-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session true
+10:52:39,822 [pool-43-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:52:40,210 [pool-43-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <Publisher> with clean session true
+10:52:40,519 [pool-43-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <Subscriber> with clean session true
+10:52:41,050 [pool-45-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session true
+10:52:41,356 [pool-45-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:52:42,128 [pool-45-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <Publisher> with clean session true
+10:52:42,365 [pool-45-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <Subscriber> with clean session true
+10:52:42,909 [pool-47-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session true
+10:52:43,423 [pool-47-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:52:43,951 [pool-47-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <Publisher> with clean session true
+10:52:44,145 [pool-47-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <Subscriber> with clean session true
+10:52:44,886 [pool-49-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <WillTestamentPublisher> with clean session true
+10:52:45,161 [pool-49-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session false
+10:52:45,620 [pool-49-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <Subscriber> with clean session false
+10:52:46,177 [pool-51-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:52:46,398 [pool-51-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session false
+10:52:46,726 [pool-51-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <Subscriber> with clean session false
+10:52:47,285 [pool-51-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session false
+10:52:47,630 [pool-51-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <Subscriber> with clean session false
+10:52:47,870 [pool-51-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <Publisher> with clean session true
+10:52:48,343 [pool-53-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session false
+10:52:48,785 [pool-53-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <Subscriber> with clean session false
+10:52:49,084 [pool-53-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:52:50,250 [pool-53-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <Publisher> with clean session true
+10:52:50,451 [pool-53-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session false
+10:52:50,756 [pool-53-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <Subscriber> with clean session false
+10:52:51,296 [pool-55-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:52:51,558 [pool-55-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session false
+10:52:52,160 [pool-55-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <Subscriber> with clean session false
+10:52:53,037 [pool-55-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session false
+10:52:53,406 [pool-55-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <Subscriber> with clean session false
+10:52:53,524 [pool-55-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session false
+10:52:53,852 [pool-55-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <Subscriber> with clean session false
+10:52:54,115 [pool-55-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <Publisher> with clean session true
+10:52:54,749 [pool-57-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:52:55,195 [pool-57-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <Publisher> with clean session true
+10:52:56,446 [pool-61-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session false
+10:52:56,996 [pool-61-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <Subscriber> with clean session false
+10:52:57,499 [pool-63-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Subscriber> with clean session false
+10:52:58,062 [pool-63-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:52:59,504 [pool-63-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <Subscriber> with clean session false
+10:52:59,742 [pool-63-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <Publisher> with clean session true
+10:53:00,200 [pool-65-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <SubPub> with clean session false
+10:53:00,726 [pool-65-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <SubPub> with clean session false
+10:53:01,029 [pool-67-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:53:01,472 [pool-67-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <Publisher> with clean session true
+10:53:02,540 [pool-69-thread-1] WARN  ProtocolProcessor 231  - Connected client ID <TestClient> with clean session true
+10:53:02,945 [pool-69-thread-1] WARN  ProtocolProcessor 531  - Disconnected client <TestClient> with clean session true
+10:53:04,274 [main] WARN  ProtocolProcessor 231  - Connected client ID <FAKE_123> with clean session true
+10:53:04,275 [main] WARN  ProtocolProcessor 231  - Connected client ID <FAKE_456> with clean session true
+10:53:04,986 [main] WARN  ProtocolProcessor 231  - Connected client ID <123> with clean session false
+10:53:05,289 [main] WARN  ProtocolProcessor 231  - Connected client ID <123> with clean session false
+10:53:05,593 [main] WARN  ProtocolProcessor 231  - Connected client ID <FAKE_123> with clean session true
+10:53:06,198 [main] WARN  ProtocolProcessor 231  - Connected client ID <CliID> with clean session false
+10:53:06,199 [main] WARN  ProtocolProcessor 531  - Disconnected client <CliID> with clean session false
+10:53:06,200 [main] WARN  ProtocolProcessor 231  - Connected client ID <CliID> with clean session false
+10:53:06,503 [main] WARN  ProtocolProcessor 151  - processConnect sent bad proto ConnAck
+10:53:07,419 [main] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session true
+10:53:07,723 [main] WARN  ProtocolProcessor 231  - Connected client ID <Publisher> with clean session false
+10:53:08,335 [main] WARN  FileAuthenticator 45  - Bad file reference / is a directory

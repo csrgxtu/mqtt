@@ -102,8 +102,8 @@ class ProtocolProcessor implements EventHandler<ValueEvent> {
     
     private Map<String, ConnectionDescriptor> m_clientIDs = new HashMap<String, ConnectionDescriptor>();
     private SubscriptionsStore subscriptions;
-    private IMessagesStore m_messagesStore;
     private ISessionsStore m_sessionsStore;
+    private IMessagesStore m_messagesStore;
     private IAuthenticator m_authenticator;
     //maps clientID to Will testament, if specified on CONNECT
     private Map<String, WillMessage> m_willStore = new HashMap<String, WillMessage>();
@@ -502,10 +502,13 @@ class ProtocolProcessor implements EventHandler<ValueEvent> {
     void processPubComp(ServerChannel session, PubCompMessage msg) {
         String clientID = (String) session.getAttribute(Constants.ATTR_CLIENTID);
         int messageID = msg.getMessageID();
+        LOG.info("processPubComp invoked for clientId {} and messageId {}", clientID, messageID);
         LOG.debug("\t\tSRV <--PUBCOMP-- SUB processPubComp invoked for clientID {} ad messageID {}", clientID, messageID);
         //once received the PUBCOMP then remove the message from the temp memory
         String publishKey = String.format("%s%d", clientID, messageID);
         m_messagesStore.cleanInFlight(publishKey);
+        LOG.info("processPubComp clean clientID {} and messageID {}", clientID, messageID);
+        m_messagesStore.cleanPersistedPublishMessage(clientID, messageID);
     }
     
     @MQTTMessage(message = DisconnectMessage.class)
